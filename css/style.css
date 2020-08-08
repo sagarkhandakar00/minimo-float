@@ -1,0 +1,159 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Ubuntu:wght@300&display=swap');
+*{
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+     margin:0;
+}
+body{
+  font-family: 'Playfair Display', serif;  
+}
+
+/*==========common css start here==========*/
+.container{
+    width:90%;
+    margin:0 auto;
+    overflow:hidden;
+}
+.container-fluid{
+    width:85%;
+    margin:0 auto;
+    overflow:hidden;
+}
+img{
+    width:100%;
+}
+/*==========common css end here==========*/
+
+/*==========header css start here==========*/
+header{
+    padding:40px 0;
+}
+.logo{
+    width:20%;
+    float: left;
+}
+.logo img{
+    width:130px;
+}
+nav{
+    width:80%;
+    float: left;
+}
+nav ul{
+    margin:0;
+    padding:0;
+    text-align:right;
+    list-style:none;
+}
+nav ul li{
+    display:inline-block;
+}
+nav ul li a{
+    font-family: 'Playfair Display', serif;
+    color: #626262; 
+    line-height:20px;
+    font-size:14px;
+    letter-spacing:1px;
+    text-decoration:none;
+    text-transform:uppercase;
+    display:block;
+    padding:0 30px;
+    transition: all .4s ease;
+}
+nav ul li a:hover{
+    color:#000;
+}
+/*==========header css end here==========*/
+
+/*==========banner css start here==========*/
+#banner{}
+.banner-img{
+    background-image:url(../images/bg-banner.jpg);
+    height:500px;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+/*==========banner css end here==========*/
+
+/*==========post css start here==========*/
+#post{
+    margin:90px 0;
+}
+.col-12{
+    float:left;
+     padding:0 30px;
+}
+.post-content{}
+.catagory span, .comment span{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight:300;
+    font-size:14px;
+    color:#b4ad9e;
+    text-transform:uppercase;
+}
+.title h1{
+    font-size:30px;
+    font-weight:400;
+    color:#626262;
+    margin:15px 0;
+}
+.pera p{
+    font-size:14px;
+    line-height:25px;
+    text-align:justify;
+    font-weight:400;
+    color:#626262;
+    margin-top:10px;
+    margin-bottom: 20px;
+}
+/*==========post css end here==========*/
+
+/*==========blog css start here==========*/
+#blog{
+    margin:50px 0;
+}
+.col-2-1{
+    width:50%;
+    float:left;
+    padding:0 30px;
+}
+.thumbnail{
+    margin-bottom:30px;
+}
+/*==========blog css end here==========*/
+/*==========footer css start here==========*/
+footer{
+    padding: 30px 0;
+    background:#f0f0f0;
+}
+.widget{}
+.widget ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+.widget-two ul{
+    text-align:right;
+}
+.widget ul li{
+    display:inline-block;
+}
+
+.widget ul li a{
+    text-decoration:none;
+    color:#626262;
+    font-weight:400;
+    font-size:14px;
+    padding-right:20px;
+    display:block;
+}
+.widget ul li a i{
+    color:#626262 ;
+    font-size:14px;
+}
+/*==========footer css end here==========*/
+
+
